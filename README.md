@@ -1,4 +1,7 @@
 
+![image](https://github.com/Kuldeep12e/Image_Genetrator/assets/109398194/7e5fd3e1-da41-4da2-b54f-77f16c45d7ae)
+
+
 
 # AI Image Generator
 
@@ -52,7 +55,6 @@ const apiKey = 'YourApiKeyHere'; // Replace 'YourApiKeyHere' with your actual AP
 - **OpenAI:** For providing the ChatGPT Image API used in this project.
 - **Pexels:** For providing the image database accessed through the ChatGPT Image API.
 
-![image](https://github.com/Kuldeep12e/Image_Genetrator/assets/109398194/7e5fd3e1-da41-4da2-b54f-77f16c45d7ae)
 
 
 
