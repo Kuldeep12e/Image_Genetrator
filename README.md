@@ -1,3 +1,5 @@
+
+
 # AI Image Generator
 
 The AI Image Generator is a JavaScript project that leverages the ChatGPT Image API to generate images based on user prompts. With this application, users can input prompts, such as "mountains," "cats," or "city skyline," and the AI will fetch and display relevant images sourced from the web.
@@ -21,7 +23,7 @@ To use the AI Image Generator, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
    ```
-   
+   git clone https://github.com/Kuldeep12e/Image_Genetrator.git
    ```
 
 2. Navigate to the project directory:
@@ -49,5 +51,9 @@ const apiKey = 'YourApiKeyHere'; // Replace 'YourApiKeyHere' with your actual AP
 
 - **OpenAI:** For providing the ChatGPT Image API used in this project.
 - **Pexels:** For providing the image database accessed through the ChatGPT Image API.
+
+
+
+
 
 
