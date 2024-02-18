@@ -1,0 +1,135 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color:black ;
+    color: white;
+    margin: 0;
+    
+}
+.header-content h1{
+   font-size: 40px;
+   font-weight: 900;
+   text-align: center;
+
+}
+
+.header-content p{
+    font-size: 20px;
+    text-align: center;
+
+}
+.header-content form{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 2px solid green;
+    border-radius: 20px;
+
+}
+.form input{
+    width: 70%;
+    border-radius: 20px;
+    padding: 10px 5px;
+    background-color: aliceblue;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+    background-color:rgb(222, 227, 227);
+    outline: none;
+
+}
+
+#image{
+    padding: 18px 5px;
+    border-radius: 20px;
+    margin-left: -70px;
+    background-color: aliceblue;
+    border: none;
+    color: rgb(7, 20, 7);
+    background-color: rgb(222, 227, 227);
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+
+    
+}
+#image option{
+    color: rgb(14, 13, 13);
+    font-size: 16px;
+    font-weight: 700;;
+}
+.btn{
+    padding: 15px 25px;
+    border-radius: 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(212, 129, 36);
+    border: none;
+
+
+}
+.btn:hover{
+    background-color:rgb(245, 166, 75); 
+    font-size: 16px;
+}
+
+.gallery{
+    display: flex;
+    margin-top: 10px;
+    gap: 15px;
+    flex-wrap: wrap;
+
+
+     
+}
+.gallery .image-box{
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(213, 238, 238);
+}
+.gallery .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.gallery .image-box.loading img{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(215, 222, 227);
+}
+.gallery .image-box .download-btn img{
+    width: 14px;
+    height: 14px;
+}
+.gallery .image-box .download-btn{
+    position:absolute;
+    top: 10px;
+    right: 5px;
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 50%;
+    display: none;
+    
+    
+}
+.gallery .image-box:not(.loading):hover .download-btn{
+    display: flex;
+}
+
