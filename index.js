@@ -17,8 +17,8 @@ const createGallery = (data) => {
 
 const generateAiImage = async (userPrompt, userImage) => {
     try {
-        const apiKey = '4lLE4JXdBBLWvAJxMnm0IiJzmoSPqmORIorh31FNkVQidR9DCPWsFXFZ';
-        const response = await fetch(`https://api.pexels.com/v1/search?query=${userPrompt}&per_page=${parseInt(userImage, 10)}`, {
+        const apiKey = 'Api key from chatgpt api key';
+        const response = await fetch(`Image URL to generate image go to chatgpt reference API guide`, {
             headers: {
                 Authorization: `Bearer ${apiKey}`
             }
